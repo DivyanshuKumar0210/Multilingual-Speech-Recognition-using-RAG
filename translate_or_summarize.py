@@ -9,8 +9,7 @@ import os
 
 warnings.filterwarnings("ignore")
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
-# os.environ['KMP_DUPLICATE_LIB_OK'] = "TRUE"
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = "your_api_token"
 
 CHROMA_PATH = "chroma"
 PROMPT_TEMPLATE = """Given below the text: \n\n{context}\n\n Answer the question based on the above context: {question}\n"""
