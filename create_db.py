@@ -9,7 +9,7 @@ import os
 
 warnings.filterwarnings("ignore")
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = "your_api_token"
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "text_data"
